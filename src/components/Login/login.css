@@ -1,0 +1,68 @@
+.header{
+    justify-content: flex-start !important;
+    padding-left: 40px !important;
+}
+.logo{
+    width: 200px !important;
+    margin: 40px 0 0 100px !important;
+}
+label {
+text-align: left;
+}
+img.ui.fluid.image.invest-image {
+    padding: 30px;
+}
+.column.login-left {
+    text-align: left !important;
+}
+button.ui.button.login-button {
+    width: 30%;
+    background: #3f3d55;
+    color: #FFF;
+    font-family: "Dinpro";
+}
+.welcome-message {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Dinpro";
+}
+.column>small {
+    text-align: left !important;
+    font-family: "Dinpro";
+}
+form.ui.form.login-form {
+    margin-top: 20px;
+    font-family: "Dinpro";
+}
+.ui.form .field.field input {
+    font-family: "Dinpro";
+    width: 300px !important;
+}
+.ui.form .field.field input:-webkit-autofill {
+    border-color: rgb(177, 178, 179) !important;
+}
+.field{
+    text-align: left !important;
+    max-width: none !important;
+}
+.column{
+    text-align: left !important;
+}
+button.ui.button.login-button {
+    margin-left: 0 !important;
+    max-width: inherit;
+    width: 300px !important;
+}
+.button {
+    max-width: none !important;
+}
+.right-section{
+    padding-left: 300px !important;
+}
+label.error-label {
+    font-weight: 100 !important;
+    color: #FF4F70 !important;
+}
+.ui.icon.input {
+    width: 300px !important;
+}
