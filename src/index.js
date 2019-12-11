@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import createSagaMiddleware from 'redux-saga';
-import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
-import { logger } from 'redux-logger';
-import reducer from './reducers';
-import rootSaga from './sagas';
+import configureStore from './configureStore';
 import './index.css';
 import App from './App';
+import './font/dinpro.ttf';
+import dotenv from 'dotenv';
 
-const sagaMiddleware = createSagaMiddleware();
-
-const store = createStore(
-    reducer,
-    applyMiddleware(sagaMiddleware,logger)
-)
-sagaMiddleware.run(rootSaga);
+dotenv.config()
+const store = configureStore();
 
 ReactDOM.render(
     <Provider store={store}>
