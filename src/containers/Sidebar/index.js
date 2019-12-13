@@ -1,5 +1,7 @@
 import React from 'react'
-import { Header, Image, Menu, Segment, Sidebar, Icon, } from 'semantic-ui-react'
+import { Image, Menu, Segment, Sidebar, Icon, } from 'semantic-ui-react'
+import NavHeader from '../../components/NavHeader';
+import Placeholder from '../../components/Placeholder';
 import './sidebar.css';
 import logo from './logo.svg';
 
@@ -82,7 +84,12 @@ const SidebarExampleVisible = () => (
 
         <Sidebar.Pusher className="dashaboard-content">
             <Segment basic>
-                <Header as='h3'>Application Content</Header>
+                <NavHeader/>
+                <div className="content-header" >
+                    <h2>Good morning John Doe!</h2>
+                    <div className="content-secondary-title">Dashboard</div>
+                </div>
+                <Placeholder className="placeholder-segment"/>
             </Segment>
         </Sidebar.Pusher>
     </Sidebar.Pushable>

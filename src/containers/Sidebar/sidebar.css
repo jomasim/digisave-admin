@@ -5,6 +5,9 @@
 .pusher.dashaboard-content {
     padding-left: 260px;
 }
+.pusher.dashaboard-content .segment {
+    padding: 1em 0;
+}
 .sidebar.menu{
     width:260px !important;
 }
@@ -54,4 +57,15 @@ menu-items .item {
     border-top: solid 0.2px !important;
     margin-top: 1em;
     color: #a7a7a7;
+}
+.content-header {
+    padding-left: 20px;
+    margin-top: 25px;
+}
+.content-secondary-title {
+    color: #a7a7a7;
+}
+
+.ui.stackable.three.column.grid {
+    padding: 20px;
 }
