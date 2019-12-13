@@ -1,8 +1,10 @@
 import React from 'react'
-import { Header,Image, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import { Header, Image, Menu, Segment, Sidebar, Icon, } from 'semantic-ui-react'
+import './sidebar.css';
+import logo from './logo.svg';
 
 const SidebarExampleVisible = () => (
-    <Sidebar.Pushable as={Segment} style={{ minHeight: '100vh' }}>
+    <Sidebar.Pushable className='dashboard-container' as={Segment} style={{ minHeight: '100vh' }}>
         <Sidebar
             as={Menu}
             animation='overlay'
@@ -12,71 +14,75 @@ const SidebarExampleVisible = () => (
             visible
             width='thin'
         >
-                <Menu.Item>
-                    <Menu.Header>Products</Menu.Header>
-
-                    <Menu.Menu>
-                        <Menu.Item
-                            name='enterprise'
-                        />
-                        <Menu.Item
-                            name='consumer'
-                        />
-                    </Menu.Menu>
+            <div>
+                <Image src={logo} className='sidebar-logo' size='small' verticalAlign='top' />
+            </div>
+            <div className="dashboard-header">
+                <Icon name="home" />
+                Dashboard
+            </div>
+            <div className="menu-items">
+                <Menu.Item className="menu-subgroup">
+                    <Menu.Header className="menu-header">Products</Menu.Header>
+                    <Menu.Item as='a'>
+                        <Icon name='deskpro' />
+                        Enterprise
+                    </Menu.Item>
+                    <Menu.Item as='a'>
+                        <Icon name='camera' />
+                        Channels
+                    </Menu.Item>
+                    <Menu.Item as='a'>
+                        <Icon name='deskpro' />
+                        Enterprise
+                    </Menu.Item>
+                    <Menu.Item as='a'>
+                        <Icon name='camera' />
+                        Channels
+                    </Menu.Item>
                 </Menu.Item>
 
                 <Menu.Item>
-                    <Menu.Header>CMS Solutions</Menu.Header>
-
-                    <Menu.Menu>
-                        <Menu.Item
-                            name='rails'
-                        />
-                        <Menu.Item
-                            name='python'
-                        />
-                        <Menu.Item
-                            name='php'
-                        />
-                    </Menu.Menu>
+                    <Menu.Header className="menu-header" >CMS Solutions</Menu.Header>
+                    <Menu.Item as='a'>
+                        <Icon name='deskpro' />
+                        Enterprise
+                    </Menu.Item>
+                    <Menu.Item as='a'>
+                        <Icon name='deskpro' />
+                        Enterprise
+                    </Menu.Item>
                 </Menu.Item>
 
                 <Menu.Item>
-                    <Menu.Header>Hosting</Menu.Header>
-
-                    <Menu.Menu>
-                        <Menu.Item
-                            name='shared'
-                        />
-                        <Menu.Item
-                            name='dedicated'
-                        />
-                    </Menu.Menu>
+                    <Menu.Header className="menu-header">Hosting</Menu.Header>
+                    <Menu.Item as='a'>
+                        <Icon name='camera' />
+                        Channels
+                    </Menu.Item>
+                    <Menu.Item as='a'>
+                        <Icon name='deskpro' />
+                        Enterprise
+                    </Menu.Item>
                 </Menu.Item>
 
                 <Menu.Item>
-                    <Menu.Header>Support</Menu.Header>
-
-                    <Menu.Menu>
-                        <Menu.Item
-                            name='email'
-                        >
-                            E-mail Support
-            </Menu.Item>
-
-                        <Menu.Item
-                            name='faq'
-                        >
-                            FAQs
-            </Menu.Item>
-                    </Menu.Menu>
+                    <Menu.Header className="menu-header">Support</Menu.Header>
+                    <Menu.Item as='a'>
+                        <Icon name='deskpro' />
+                        Enterprise
+                    </Menu.Item>
+                    <Menu.Item as='a'>
+                        <Icon name='camera' />
+                        Channels
+                    </Menu.Item>
                 </Menu.Item>
+            </div>
         </Sidebar>
 
-        <Sidebar.Pusher>
+        <Sidebar.Pusher className="dashaboard-content">
             <Segment basic>
                 <Header as='h3'>Application Content</Header>
-                <Image src='/images/wireframe/paragraph.png' />
             </Segment>
         </Sidebar.Pusher>
     </Sidebar.Pushable>

@@ -1,0 +1,57 @@
+.menu-header{
+    padding-left: 0 !important;
+    color:#000000
+}
+.pusher.dashaboard-content {
+    padding-left: 260px;
+}
+.sidebar.menu{
+    width:260px !important;
+}
+.icon-menu{
+    text-align: left;
+}
+.sidebar.menu{
+    text-align: left;
+}
+.ui.inverted.vertical.labeled.icon.ui.overlay.left.thin.visible.sidebar.menu {
+   background: #fff;
+}
+.ui.inverted.vertical.labeled.icon.ui.overlay.left.thin.visible.sidebar.menu .item {
+    font-family: "dinpro";
+    text-align: left;
+    color: #a7a7a7 !important;
+}
+menu-items .item {
+    padding-left: 0px !important;
+}
+.item .icon {
+    float: left !important;
+}
+.dashboard-container{
+    margin: 0px !important;
+    border: 0px !important;
+}
+.sidebar-logo{
+        width: 200px !important;
+        margin: 20px 0 0 0px !important;
+}
+.menu-items {
+    padding-left: 25px;
+}
+.menu-items .item.item {
+    padding-left: 0px !important;
+}
+.dashboard-header {
+    text-align: left;
+    padding-left: 24px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #a7a7a7;
+    font-family: "dinpro";
+}
+.item.menu-subgroup {
+    border-top: solid 0.2px !important;
+    margin-top: 1em;
+    color: #a7a7a7;
+}
