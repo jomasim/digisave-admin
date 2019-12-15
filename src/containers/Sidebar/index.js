@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Icon, Image, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import { Header,Image, Menu, Segment, Sidebar } from 'semantic-ui-react'
 
 const SidebarExampleVisible = () => (
     <Sidebar.Pushable as={Segment} style={{ minHeight: '100vh' }}>
