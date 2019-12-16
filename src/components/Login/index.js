@@ -15,7 +15,7 @@ import logo from './logo.svg';
 const LoginComponent = ({ handleChange, handleSubmit, loading, errors }) => {
 
     return (
-        <Segment placeholder >
+        <Segment placeholder className="login-segment" >
             <Grid columns={2} stackable className="landing-section" textAlign='center'>
                 <GridRow className="header">
                     <Image src={logo} className='logo' size='small' verticalAlign='top' />

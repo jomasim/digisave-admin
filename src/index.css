@@ -13,15 +13,9 @@ body {
 }
 .landing-section{
  min-height: 100vh;
- padding-bottom: 150px !important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* .field{
-  max-width: none !important;
-}
-.field{
-  max-width: none !important;
-} */
+
