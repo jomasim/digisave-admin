@@ -1,19 +1,36 @@
-.bell-notification{
-    background: url('./bell.svg') no-repeat;
-    height: 100px;
-    width: 100px;
-}
 .ui.pointing.secondary.menu-left.menu .icon {
-    color: #a7a7a7;
+    color: #bcc4d3;
 }
 span.hello {
-    color: #a7a7a7;
+    color: #bcc4d3;
+    font-family: rubik;
+    font-size: 16px;
+    padding-right: 3px;
 }
 
 .menu-profile span{
-    font: "dinpro";
-    font-size: 18px;
+    font-family: "rubik";
+    font-size: 16px;
+}
+span.profile-name {
+    font-size: 16px;
+    font-family: rubik;
 }
 .ui.pointing.secondary.menu-left.menu {
     padding-bottom: 12px;
+}
+.content-header h2{
+    font-family: "rubik";
+}
+.content-secondary-title {
+    color: #bcc4d3;
+    font-family: "rubik";
+    font-size: 16px;
+}
+.badge {
+    position: absolute;
+    top: 0.2px;
+    left: 22px;
+    background-color: #1d215e !important; 
+ 
 }

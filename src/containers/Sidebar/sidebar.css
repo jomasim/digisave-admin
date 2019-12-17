@@ -2,6 +2,9 @@
     padding-left: 0 !important;
     color:#000000
 }
+.header.menu-header {
+    font-size: 13px !important;
+}
 .pusher.dashaboard-content {
     padding-left: 260px;
 }
@@ -21,9 +24,10 @@
    background: #fff;
 }
 .ui.inverted.vertical.labeled.icon.ui.overlay.left.thin.visible.sidebar.menu .item {
-    font-family: "dinpro";
+    font-family: "rubik";
     text-align: left;
-    color: #a7a7a7 !important;
+    color: #bcc4d3 !important;
+    font-size: 16px;
 }
 menu-items .item {
     padding-left: 0px !important;
@@ -49,9 +53,10 @@ menu-items .item {
     text-align: left;
     padding-left: 24px;
     margin-top: 50px;
-    font-size: 15px;
-    color: #a7a7a7;
-    font-family: "dinpro";
+    font-size: 16px;
+    color: #bcc4d3;
+    font-family: "rubik";
+    font-weight: 600;
 }
 .item.menu-subgroup {
     border-top: solid 0.2px !important;
@@ -63,9 +68,28 @@ menu-items .item {
     margin-top: 25px;
 }
 .content-secondary-title {
-    color: #a7a7a7;
+    color: #bcc4d3;
+    font-family: "rubik";
 }
 
 .ui.stackable.three.column.grid {
     padding: 20px;
+}
+
+.menu-items .item span{
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.dashboard-header {
+    background: #1c205e;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 0 12px 12px 0px;
+    color: #fff;
+    width: 230px;
+}
+.greeting{
+    font-size: 20px;
+    font-family: rubik;
 }

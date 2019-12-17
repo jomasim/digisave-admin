@@ -21,62 +21,63 @@ const SidebarExampleVisible = () => (
             </div>
             <div className="dashboard-header">
                 <Icon name="home" />
-                Dashboard
+                <span>Dashboard</span>
             </div>
             <div className="menu-items">
                 <Menu.Item className="menu-subgroup">
-                    <Menu.Header className="menu-header">Products</Menu.Header>
+                    <Menu.Header className="menu-header">ORGANIZATIONS</Menu.Header>
                     <Menu.Item as='a'>
                         <Icon name='deskpro' />
-                        Enterprise
+                        <span>Enterprise</span>
                     </Menu.Item>
                     <Menu.Item as='a'>
                         <Icon name='camera' />
-                        Channels
+                        <span>Channel</span>
+
                     </Menu.Item>
                     <Menu.Item as='a'>
                         <Icon name='deskpro' />
-                        Enterprise
+                        <span>Enterprise</span>
                     </Menu.Item>
                     <Menu.Item as='a'>
                         <Icon name='camera' />
-                        Channels
+                        <span>Channel</span>
                     </Menu.Item>
                 </Menu.Item>
 
                 <Menu.Item>
-                    <Menu.Header className="menu-header" >CMS Solutions</Menu.Header>
+                    <Menu.Header className="menu-header" >CUSTOMERS</Menu.Header>
                     <Menu.Item as='a'>
                         <Icon name='deskpro' />
-                        Enterprise
+                        <span>Enterprise</span>
                     </Menu.Item>
                     <Menu.Item as='a'>
                         <Icon name='deskpro' />
-                        Enterprise
+                        <span>Enterprise</span>
                     </Menu.Item>
                 </Menu.Item>
 
                 <Menu.Item>
-                    <Menu.Header className="menu-header">Hosting</Menu.Header>
+                    <Menu.Header className="menu-header">PAYMENTS</Menu.Header>
                     <Menu.Item as='a'>
                         <Icon name='camera' />
-                        Channels
+                        <span>Channels</span>
                     </Menu.Item>
                     <Menu.Item as='a'>
                         <Icon name='deskpro' />
-                        Enterprise
+                        <span>Enterprise</span>
                     </Menu.Item>
                 </Menu.Item>
 
                 <Menu.Item>
-                    <Menu.Header className="menu-header">Support</Menu.Header>
+                    <Menu.Header className="menu-header">SUPPORT</Menu.Header>
                     <Menu.Item as='a'>
                         <Icon name='deskpro' />
-                        Enterprise
+                        <span>Enterprise</span>
                     </Menu.Item>
                     <Menu.Item as='a'>
                         <Icon name='camera' />
-                        Channels
+                        <span>Channels</span>
                     </Menu.Item>
                 </Menu.Item>
             </div>
@@ -86,7 +87,7 @@ const SidebarExampleVisible = () => (
             <Segment basic>
                 <NavHeader/>
                 <div className="content-header" >
-                    <h2>Good morning John Doe!</h2>
+                    <h3 className="greeting">Good Morning John Doe!</h3>
                     <div className="content-secondary-title">Dashboard</div>
                 </div>
                 <Placeholder className="placeholder-segment"/>
