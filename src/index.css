@@ -3,9 +3,14 @@
   src: local('Dinpro'), url(../src/font/dinpro.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'rubik';
+  src: local('rubik'), url(../src/font/rubik.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: "Dinpro", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: "rubik", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;

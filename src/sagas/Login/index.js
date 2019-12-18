@@ -9,6 +9,7 @@ export function* loginWorker({ payload }) {
     try {
         const response = yield call(api.userLogin, { email, password });
         const token = response ? response.data.token : ''
+        localStorage.setItem('USER', JSON.stringify(response ? response.data : {}))
         localStorage.setItem('ACCESS_TOKEN', token)
         yield put({
             type: types.LOGIN_SUCCESS,

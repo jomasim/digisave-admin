@@ -22,23 +22,23 @@ button.ui.button.login-button {
     width: 30%;
     background: #3f3d55;
     color: #FFF;
-    font-family: "Dinpro";
+    font-family: "rubik";
 }
 .welcome-message {
     font-size: 25px;
     font-weight: 600;
-    font-family: "Dinpro";
+    font-family: "rubik";
 }
 .column>small {
     text-align: left !important;
-    font-family: "Dinpro";
+    font-family: "rubik";
 }
 form.ui.form.login-form {
     margin-top: 20px;
-    font-family: "Dinpro";
+    font-family: "rubik";
 }
 .ui.form .field.field input {
-    font-family: "Dinpro";
+    font-family: "rubik";
     width: 300px !important;
 }
 .ui.form .field.field input:-webkit-autofill {
@@ -68,4 +68,13 @@ label.error-label {
 }
 .ui.icon.input {
     width: 300px !important;
+}
+.ui[class*="center aligned"].grid>.row>.column {
+    align-self: flex-start !important;
+}
+.column.right-section {
+    margin-top: 60px !important;
+}
+.field {
+    font-size: 16px;
 }

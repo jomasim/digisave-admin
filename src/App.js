@@ -13,7 +13,6 @@ const getToken = () => {
   return localStorage.getItem('ACCESS_TOKEN');
 }
 function App() {
-
   return (
     <div>
       <NotificationContainer />
