@@ -4,19 +4,23 @@ import { bindActionCreators } from 'redux';
 import LoginComponent from '../../components/Login';
 import { loginUser } from '../../actions/Login';
 
+
 class LoginView extends Component {
     state = {
         email: '',
         password: '',
         errors: {},
+        redirect: false
     }
 
     componentDidUpdate() {
-        const { isLoggedin, history } = this.props;
-        if (isLoggedin) {
-            history.push("/dashboard");
+        const { history, isLoggedin } = this.props;
+        if(isLoggedin){
+            history.push('/dashboard')
         }
     }
+
+
 
     handleChange = (e) => {
         this.setState({ errors: {} });

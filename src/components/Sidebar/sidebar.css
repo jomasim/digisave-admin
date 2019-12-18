@@ -93,3 +93,6 @@ menu-items .item {
     font-size: 20px;
     font-family: rubik;
 }
+.ui.labeled.icon.menu .item>.icon:not(.dropdown) {
+    font-size: 1.21428571em!important;
+}

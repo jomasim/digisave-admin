@@ -34,3 +34,10 @@ span.profile-name {
     background-color: #1d215e !important; 
  
 }
+.ui.icon.input.search-box {
+    width: 240px !important;
+    font-size: 16px;
+}
+.search-box input{
+    border-radius: 0.8rem !important;
+}

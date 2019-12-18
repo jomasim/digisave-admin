@@ -1,4 +1,4 @@
-import { LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE } from '../../actions/Login/types';
+import { LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, LOG_OUT } from '../../actions/Login/types';
 
 const initialState = {
     errors: {},
@@ -20,6 +20,10 @@ const loginReducer = (state = initialState, action) => {
             return {
                 ...state, ...action.payload, errors: {}, isLoading: false, isLoggedin: false,
             };
+        case LOG_OUT:
+                return {
+                    ...state, ...action.payload, errors: {}, isLoading: false, isLoggedin: false,
+                };
         default:
             return state;
     }
